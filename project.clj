@@ -1,8 +1,8 @@
 (defproject storm-starter "0.0.1-SNAPSHOT"
-  :source-paths ["src/clj"]
-  :java-source-paths ["src/jvm"]
-  :test-paths ["test/jvm"]
-  :resource-paths ["multilang"]
+  :source-paths ["src/main/clojure"]
+  :java-source-paths ["src/main/java"]
+  :test-paths ["src/test/java"]
+  :resource-paths ["src/main/resources"]
   :aot :all
   :repositories {
 ;;                 "twitter4j" "http://twitter4j.org/maven2"
